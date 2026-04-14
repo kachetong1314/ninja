@@ -29,6 +29,9 @@
 - **弱化部分公版协议特征**  
   对默认实现中较明显的公版特征进行处理，减少通用化痕迹。
 
+- **修改后的 Clash / Mihomo 等内核版本已在 Release 中提供**  
+  当前再次修改后的相关核心版本，可直接在仓库的 Release 页面获取。
+
 ### 💻 客户端
 
 当前已提供以下平台客户端：
@@ -37,12 +40,12 @@
 - Android
 - macOS
 
-客户端项目地址：  
+一键加速客户端项目地址：  
 https://github.com/kachetong1314/ninja-client
 
 ### ⚙️ 内核仓库
 
-各版本内核地址：  
+各版本内核下载地址：  
 https://github.com/kachetong1314/ninja-core
 
 ---
@@ -73,6 +76,9 @@ Rather than being a thin wrapper around public upstream cores, the project focus
 - **Reduced generic public-protocol fingerprints**  
   Adjusts some of the more recognizable characteristics commonly found in public implementations.
 
+- **Modified Clash / Mihomo-related builds are currently available in Releases**  
+  Updated custom core builds can be downloaded directly from the repository Releases page.
+
 ### 💻 Clients
 
 Current client support includes:
@@ -81,10 +87,10 @@ Current client support includes:
 - Android
 - macOS
 
-Client repository:  
+One-click acceleration client repository:  
 https://github.com/kachetong1314/ninja-client
 
 ### ⚙️ Core Repository
 
-Core versions are available here:  
+Core downloads for different versions:  
 https://github.com/kachetong1314/ninja-core
