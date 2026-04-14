@@ -44,12 +44,12 @@
 - macOS
 
 一键加速客户端项目地址：  
-https://github.com/kachetong1314/ninja-client
+https://github.com/kachetong1314/ninja-client/releases/
 
 ### ⚙️ 内核仓库
 
 各版本内核下载地址：  
-https://github.com/kachetong1314/ninja-core
+https://github.com/kachetong1314/ninja-core/tree/openwrt
 
 ---
 
