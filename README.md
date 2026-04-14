@@ -94,9 +94,9 @@ Current client support includes:
 - macOS
 
 One-click acceleration client repository:  
-https://github.com/kachetong1314/ninja-client
+https://github.com/kachetong1314/ninja-client/releases/
 
 ### ⚙️ Core Repository
 
 Core downloads for different versions:  
-https://github.com/kachetong1314/ninja-core
+https://github.com/kachetong1314/ninja-core/tree/openwrt
