@@ -1,45 +1,90 @@
-# ninja
-A special Mihomo SuperCore
+# ninja 🥷
 
-# 🌌 Mihomo SuperCore
-
-> 基于 **mihomo 内核超级魔改** 的新一代代理引擎  
-> 类似 Clash Verge / Clash.Meta 的内核，但更狠、更野、更能打。
+中文版 / English below
 
 ---
 
-## ✨ 项目简介
+## 中文简介 🚀
 
-**Mihomo SuperCore** 是在 mihomo 内核基础上进行深度魔改的代理内核项目。  
-在保留原有稳定性和兼容性的前提下，针对国内外复杂网络环境做了一堆“看起来就很牛逼”的优化，让你几乎不用折腾，就能获得更顺滑的网络体验。
+**ninja** 是一个基于 **clash-mihomo** 与 **leaf** 再次深度修改的代理内核项目。  
+它并不是对公版内核做简单封装，而是围绕协议栈、握手流程、验证机制与运行特征持续做了裁剪、重构与优化，目标是提供一个更简洁、更稳定、也更适合实际部署的核心实现。
 
-一句话概括：
+### ✨ 主要特性
 
-> **“配置还是那个配置，速度不是那个速度。”**
+- **基于 clash-mihomo 与 leaf 深度再修改**  
+  以两套成熟内核为基础，结合实际使用场景继续做定向优化与重构。
+
+- **移除部分公版协议支持**  
+  去掉不再需要的通用协议能力，减少冗余逻辑，让整体实现更聚焦。
+
+- **简化加密算法设计**  
+  对部分加密链路进行精简，降低不必要的复杂度，提升一致性与可维护性。
+
+- **优化握手逻辑**  
+  调整连接建立阶段的关键流程，改善握手效率与整体连接体验。
+
+- **多层用户验证机制**  
+  在接入与鉴权环节加入多层校验，用于增强访问控制与使用安全性。
+
+- **弱化部分公版协议特征**  
+  对默认实现中较明显的公版特征进行处理，减少通用化痕迹。
+
+### 💻 客户端
+
+当前已提供以下平台客户端：
+
+- Windows
+- Android
+- macOS
+
+客户端项目地址：  
+https://github.com/kachetong1314/ninja-client
+
+### ⚙️ 内核仓库
+
+各版本内核地址：  
+https://github.com/kachetong1314/ninja-core
 
 ---
 
-## 🚀 核心亮点
+## English 🌍
 
-- **深度魔改 mihomo 内核**  
-  在原生 mihomo 基础上做了大量定制优化，属于那种“能不动就不动，一动就大动”的级别。
+**ninja** is a custom proxy core built on top of **clash-mihomo** and **leaf**, with further deep modifications across the protocol stack, handshake flow, authentication model, and runtime behavior.
 
-- **类 Clash.Meta 的高级能力**  
-  策略组、规则分流、高级匹配一应俱全，对接现有 Clash / Clash.Meta 生态基本没啥学习成本。
+Rather than being a thin wrapper around public upstream cores, the project focuses on selective refactoring and practical optimization to deliver a cleaner, more controlled, and deployment-oriented implementation.
 
-- **极致兼容性**  
-  尽量兼容常见 Clash 客户端（如 Clash Verge 一类前端面板），后端替换即可，前端基本不用改。
+### ✨ Key Features
 
-- **低占用 & 高并发**  
-  感觉像开了挂一样的连接处理能力，更适合多用户及高并发场景。
+- **Further modified from clash-mihomo and leaf**  
+  Built on top of two mature core projects, then selectively reworked and optimized for real-world deployment needs.
 
----
+- **Removed unnecessary public protocol support**  
+  Drops protocol implementations that are no longer needed, reducing redundant logic and keeping the core focused.
 
-## 🧩 功能概览
+- **Simplified cryptographic design**  
+  Streamlines parts of the encryption pipeline to reduce unnecessary complexity and improve maintainability.
 
-- 支持 Clash / Clash.Meta 风格配置文件（大部分字段可直接复用）
-- "Ninja"代理协议：  
-- 支持规则分流：按域名 / IP / GeoIP / 进程 等进行策略路由
-- 支持多平台部署（Linux / Windows / 部分 NAS / 软路由 等）
+- **Optimized handshake flow**  
+  Refines connection setup behavior for better efficiency and a smoother connection experience.
 
-> 具体支持情况以后再慢慢补 README，目前你可以先当它“几乎啥都支持”。
+- **Multi-layer user authentication**  
+  Adds layered validation during connection and authorization stages for stronger access control.
+
+- **Reduced generic public-protocol fingerprints**  
+  Adjusts some of the more recognizable characteristics commonly found in public implementations.
+
+### 💻 Clients
+
+Current client support includes:
+
+- Windows
+- Android
+- macOS
+
+Client repository:  
+https://github.com/kachetong1314/ninja-client
+
+### ⚙️ Core Repository
+
+Core versions are available here:  
+https://github.com/kachetong1314/ninja-core
