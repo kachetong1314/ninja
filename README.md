@@ -70,7 +70,7 @@ Rather than being a thin wrapper around public upstream cores, the project focus
 - **Simplified cryptographic design**  
   Streamlines parts of the encryption pipeline to reduce unnecessary complexity and improve maintainability.
 
-- **obsfucated and encrypted subscription node content
+- **obsfucated and encrypted subscription node content**
   Drastically reduced open exposed subscription link leak / craw / search bot
 
 - **Optimized handshake flow**  
