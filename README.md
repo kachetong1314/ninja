@@ -6,7 +6,7 @@
 
 ## 中文简介 🚀
 
-**ninja** 是一个基于 **clash-mihomo** 与 **leaf** 再次深度修改的代理内核项目。  
+**ninja** 是一个基于 **clash-mihomo** 与 **leaf** 再次深度修改的代理项目。  
 它并不是对公版内核做简单封装，而是围绕协议栈、握手流程、验证机制与运行特征持续做了裁剪、重构与优化，目标是提供一个更简洁、更稳定、也更适合实际部署的核心实现。
 
 ### ✨ 主要特性
@@ -19,6 +19,9 @@
 
 - **简化加密算法设计**  
   对部分加密链路进行精简，降低不必要的复杂度，提升一致性与可维护性。
+
+- **订阅混淆加密**  
+  支持订阅加密混淆, 降低订阅链接暴露风险。
 
 - **优化握手逻辑**  
   调整连接建立阶段的关键流程，改善握手效率与整体连接体验。
@@ -66,6 +69,9 @@ Rather than being a thin wrapper around public upstream cores, the project focus
 
 - **Simplified cryptographic design**  
   Streamlines parts of the encryption pipeline to reduce unnecessary complexity and improve maintainability.
+
+- **obsfucated and encrypted subscription node content
+  Drastically reduced open exposed subscription link leak / craw / search bot
 
 - **Optimized handshake flow**  
   Refines connection setup behavior for better efficiency and a smoother connection experience.
