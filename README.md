@@ -14,9 +14,6 @@
 - **基于 clash-mihomo 与 leaf 深度再修改**  
   以两套成熟内核为基础，结合实际使用场景继续做定向优化与重构。
 
-- **移除部分公版协议支持**  
-  去掉不再需要的通用协议能力，减少冗余逻辑，让整体实现更聚焦。
-
 - **简化加密算法设计**  
   对部分加密链路进行精简，降低不必要的复杂度，提升一致性与可维护性。
 
@@ -42,6 +39,7 @@
 - Windows
 - Android
 - macOS
+- Linux
 
 一键加速客户端项目地址：  
 https://github.com/kachetong1314/ninja-client/releases/
@@ -49,8 +47,7 @@ https://github.com/kachetong1314/ninja-client/releases/
 ### ⚙️ 内核仓库
 
 各版本内核下载地址：  
-https://github.com/kachetong1314/ninja-core/tree/openwrt
-
+https://github.com/kachetong1314/mihomo-ninja/releases
 ---
 
 ## English 🌍
@@ -63,9 +60,6 @@ Rather than being a thin wrapper around public upstream cores, the project focus
 
 - **Further modified from clash-mihomo and leaf**  
   Built on top of two mature core projects, then selectively reworked and optimized for real-world deployment needs.
-
-- **Removed unnecessary public protocol support**  
-  Drops protocol implementations that are no longer needed, reducing redundant logic and keeping the core focused.
 
 - **Simplified cryptographic design**  
   Streamlines parts of the encryption pipeline to reduce unnecessary complexity and improve maintainability.
@@ -92,6 +86,7 @@ Current client support includes:
 - Windows
 - Android
 - macOS
+- Linux
 
 One-click acceleration client repository:  
 https://github.com/kachetong1314/ninja-client/releases/
@@ -99,4 +94,4 @@ https://github.com/kachetong1314/ninja-client/releases/
 ### ⚙️ Core Repository
 
 Core downloads for different versions:  
-https://github.com/kachetong1314/ninja-core/tree/openwrt
+https://github.com/kachetong1314/mihomo-ninja/releases
