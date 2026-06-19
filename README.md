@@ -42,7 +42,7 @@
 - Linux
 
 一键加速客户端项目地址：  
-https://github.com/kachetong1314/ninja-client/releases/
+https://github.com/kachetong1314/ninja/releases/
 
 ### ⚙️ 内核仓库
 
@@ -90,7 +90,7 @@ Current client support includes:
 - Linux
 
 One-click acceleration client repository:  
-https://github.com/kachetong1314/ninja-client/releases/
+https://github.com/kachetong1314/ninja/releases/
 
 ### ⚙️ Core Repository
 
